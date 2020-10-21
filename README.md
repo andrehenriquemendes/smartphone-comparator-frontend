@@ -1,6 +1,6 @@
 # smartphone-comparator-frontend
 Frontend da minha aplicação que compara smartphones.</br>
-Obs: existem alguns bugs na aplicação.
+Obs: existem alguns bugs na aplicação.</br>
 Backend: https://github.com/andrehenriquemendes/smartphone-comparator
 
 ## A aplicação pode ser testada através do link:
