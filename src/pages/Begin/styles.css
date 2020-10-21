@@ -1,0 +1,14 @@
+.vsImg {
+    margin: 0 auto;
+    width: 50%;
+    min-width: 400px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 500px) {
+    .vsImg {
+        min-width: 250px;
+        margin-bottom: 60px;
+    }
+}

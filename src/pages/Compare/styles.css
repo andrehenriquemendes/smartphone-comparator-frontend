@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.full-white-background {
+    margin: 0 auto;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 91px;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.blankSpace {
+    height: 100px;
+}
+
+.comparePhones {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+.specRow {
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+
+.itemSpec, .labelName {
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+}
+
+.labelImg {
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+}
+
+
+.divImg {
+    margin: 0 auto;
+    display: flex;
+    width: 40%;
+}
+
+.divImg img{
+    margin: 0 auto;
+    display: flex;
+    width: 100px;
+    text-align: center;
+    color: #3f3f3f;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/* FONT */
+.labelName {
+    color: #808080;
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.itemSpec {
+    color: #3f3f3f;
+    margin: 0 20px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+/* //FONT */
+
+
+.categoryTitle {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(107, 107, 107);
+    height: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid rgb(159, 203, 253);
+    line-height: 15px;
+}
+
+
+
+#inline {
+    margin: 0 auto;
+    display: inline;
+    width: 40%;
+}
+
+#inline p {
+    margin: 0 auto;
+    font-size: 12px;
+    color: #3f3f3f;
+    padding-left: 25%;
+}
+
+.bar-rating {
+    margin: 0 auto;
+    display: flex;
+    width: 150px;
+    height: 5px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 200px;
+}
+
+.rating {
+    display: flex;
+    height: 5px;
+    background-color: rgb(142, 151, 63);
+    border-radius: 200px; 
+}
+
+.labelRating {
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    color: #808080;
+    text-align: left;
+    font-size: 14px;
+    line-height: 10px;
+    margin-top: 12px;
+}
+
+
+
+.oferta {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-left:3px solid rgb(1, 189, 110);
+    border-right:3px solid rgb(1, 189, 110);
+}
+
+.itemOferta {
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    color: #3f3f3f;
+    font-size: 12px;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+
+#ofertaTitle {
+    color: rgb(26, 26, 26);
+    border-bottom: 2px solid rgb(1, 189, 110);
+}
+
+
+/* Button Offer */
+.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 177, 6);
+    padding: 15px 30px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: all 0.2s;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.171);
+}
+
+.button:hover {
+  background: rgb(1, 189, 110);
+}
+
+.withoutOffers {
+    padding: 0 20px;
+    padding-top: 10px;
+}
+
+.withoutOffers, .note {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+#fixedScroll {
+    background: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+}
+
+.subCategory {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+.subCategory spam {
+    display: flex;
+    margin-bottom: 20px;
+}
+.subCategory spam p {
+    margin-left: 5px;
+    line-height: 15px;
+    font-size: 15px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.subCategory spam i {
+    size: 50px;
+}

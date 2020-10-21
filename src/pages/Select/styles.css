@@ -1,0 +1,198 @@
+.white-background {
+  padding-top: 50px;
+  background-color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 50vh;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-height: 600px) {
+  .white-background {
+    height: 60vh;
+  }
+}
+
+.select-plus {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.select-plus form {
+  margin: 0 auto;
+  display: inline;
+}
+
+.select-plus form input {
+  width: 400px;
+}
+
+.btn-plus-icon {
+  background-color: #fff;
+  color: #0075FC;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border: 1px solid rgb(159, 203, 253);
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 16px;
+  width: 100px;
+  transition: all 2ms;
+  font-size: 15px;
+}
+
+.btn-plus-icon:hover {
+  background-color: rgb(246, 250, 255);
+}
+
+@media (max-width: 600px) {
+  .select-plus form input {
+    width: 200px;
+    font-size: 13px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+  .btn-plus-icon {
+    padding: 0 10px;
+    width: 80px;
+    font-size: 13px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .select-plus form input {
+    width: 150px;
+    font-size: 10px;
+    height: 30px;
+  }
+  .btn-plus-icon {
+    padding: 0 7px;
+    width: 80px;
+    font-size: 10px;
+    height: 30px;
+  }
+}
+
+.smartphones-to-compare {
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 10px;
+  height: 80px;
+}
+@media (max-width: 600px) {
+  .smartphones-to-compare {
+    height: 110px;
+  }
+}
+@media (min-width: 600px) and (max-width: 850px) {
+  .smartphones-to-compare {
+    height: 150px;
+  }
+}
+
+.smartphones-to-compare ul {
+  padding:0px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.smartphones-to-compare ul li {
+  display: inline;
+  padding: 10px;
+  margin: 0 5px;
+  padding-top: 10px;
+  background-color: #ecfdf3;
+  border-bottom:3px solid #54e680;
+}
+@media (max-width: 600px) {
+  .smartphones-to-compare ul li {
+    display: block;
+    padding: 4px;
+  }
+}
+@media (min-width: 600px) and (max-width: 850px) {
+  .smartphones-to-compare ul li {
+    display: block;
+    padding: 4px;
+  }
+}
+
+.smartphones-to-compare ul li p {
+  font-weight: 300;
+  padding: 4px 10px;
+  display: inline-block;
+  font-size: 15px;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s;
+  cursor: default;
+  padding: 7px 20px
+}
+@media (max-width: 600px) {
+  .smartphones-to-compare ul li p {
+    font-size: 12px;
+    padding: 4px 6px;
+  }
+}
+
+.smartphones-to-compare ul li i {
+  color: #e65454;
+}
+
+.smartphones-to-compare ul li i:hover {
+  color: #c50f0f;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+
+
+#warning {
+  margin: 0 auto;
+  display: flex;
+  height: 30px;
+}
+#warning p {
+  width: 100%;
+  color: #ce0505;
+  font-size: 15px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  #warning {
+    height: 20px;
+  }
+  
+  #warning p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  #warning {
+    height: 15px;
+  }
+  
+  #warning p {
+    font-size: 10px;
+  }
+}
+
+.content p.normalBlack {
+  color: rgb(39, 39, 39);
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+@media (max-width: 600px) {
+  .content p.normalBlack {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+}

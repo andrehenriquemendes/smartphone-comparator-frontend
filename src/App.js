@@ -1,25 +1,45 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Routes from './routes';
 
-function App() {
+import logo from './assets/logo-menor.png';
+
+
+function App({history}) {
+
+  function handleHome(event) {
+    event.preventDefault();
+
+    history.push('/');
+  }
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className="container">
+      <div className="content">
+        <div className="menu">
+          <div className="logo"><a href="/" ><img src={logo} className="logo"/></a></div>
+          <div className="icons">
+            <a href="https://www.instagram.com/mestrephone/" target="_blank"><i className='fab fa-instagram' /></a>
+            <a href="https://www.facebook.com/mestrephone/" target="_blank"><i className='fab fa-facebook-square' /></a>
+          </div>
+        </div>
+        
+        <Routes />
+      
     </div>
+    </div>
+    <footer id="footer">
+      <div className="footerLeft">
+        <p>O site encontra-se em versão Beta.<br />
+        Seu feedback é importante para aperfeiçoá-lo.</p>
+      </div>
+      <div className="footerRight">
+        <p>Copyright © 2020 | Mestre Phone</p>
+      </div>
+  </footer>
+  </>
   );
 }
 
