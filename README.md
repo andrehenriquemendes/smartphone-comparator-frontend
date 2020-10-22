@@ -4,7 +4,8 @@ Obs: existem alguns bugs na aplicação.</br>
 Backend: https://github.com/andrehenriquemendes/smartphone-comparator
 
 ## A aplicação pode ser testada através do link:
-https://smartphone-comparator-frontend.herokuapp.com/
+https://smartphone-comparator-frontend.herokuapp.com/</br>
+Obs: o Heroku tira do ar a aplicação após 30 minutos sem requisições. Portanto pode demorar um pouco para a aplicação ser carregada ao acessar o site pela primeira vez.
 
 ## As tecnologias usadas foram:
 - Frontend: React
