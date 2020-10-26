@@ -1,7 +1,7 @@
 # smartphone-comparator-frontend
 Frontend da minha aplicação que compara smartphones.</br>
 Obs: existem alguns bugs na aplicação.</br>
-Backend: https://github.com/andrehenriquemendes/smartphone-comparator
+Backend: https://github.com/andrehenriquemendes/smartphone-comparator-backend
 
 ## A aplicação pode ser testada através do link:
 https://smartphone-comparator-frontend.herokuapp.com/</br>
